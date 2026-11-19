@@ -1,0 +1,3 @@
+{"id":"qualified-seller","turns":["I want to sell","Sam","GU5 7AQ","07911 123456","sam@example.com","no"],"expected":{"qualified":true,"done":true,"closing":null}}
+{"id":"new-build-under-budget","turns":["I want to buy","Sam","no","new-build","900k"],"expected":{"qualified":false,"done":true,"closing":"M1"}}
+{"id":"seller-outside-coverage","turns":["I want to sell","Sam","LS1 1AA"],"expected":{"qualified":false,"done":true,"closing":"M2"}}

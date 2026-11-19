@@ -1,10 +1,43 @@
 # Python-generated files
 __pycache__/
 *.py[oc]
+*.py[cod]
 build/
 dist/
 wheels/
 *.egg-info
+.cache/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
 
 # Virtual environments
 .venv
+
+# Local secrets and generated vector-store state
+.env
+.env.local
+.env.*.local
+.chroma/
+.env.*
+!.env.example
+
+reports/
+leads/
+
+# Logs
+*.log
+logs/
+
+# IDE and editor files
+.idea/
+.vscode/
+*.code-workspace
+
+# Operating system files
+.DS_Store
+Thumbs.db
